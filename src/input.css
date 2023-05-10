@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar-dropdown-hover {
+    @apply absolute hidden group-hover:flex group-hover:flex-row group-hover:gap-20 w-max border border-gray-500 bg-white mt-6 p-5 text-black;
+  }
+
+  .navbar-content-links {
+    @apply flex flex-col gap-5;
+  }
+
+  .advantage-content-container {
+    @apply grid grid-cols-1 lg:grid-cols-[1fr_0.75fr] justify-center w-full my-8 lg:my-20;
+  }
+
+  .advantage-image {
+    @apply 2xl:w-3/4 flex items-center py-5;
+  }
+
+  .button-style {
+    @apply p-3 bg-slate-950 text-white font-bold hover:bg-violet-600;
+  }
+
+  .heading {
+    @apply text-4xl font-bold;
+  }
+
+  .heading-small {
+    @apply text-2xl font-bold;
+  }
+
+  .subheading {
+    @apply text-xl my-5;
+  }
+
+  .subheading-small {
+    @apply text-lg my-5;
+  }
+
+  .learn-more {
+    @apply text-xl font-bold text-[#5022C3] hover:text-[#9022c3];
+  }
+
+  .footer-content {
+    @apply flex flex-col gap-5 font-semibold;
+  }
+
+  .chosen-tab {
+    @apply p-5 text-black border-b-2 border-b-black font-bold;
+  }
+
+  .tab {
+    @apply p-5 border-b-2;
+  }
+
+  .tab-content-container {
+    @apply hidden;
+  }
+
+  .active-tab {
+    @apply grid lg:grid-cols-[0.5fr_1fr] gap-10 text-start;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
