@@ -1,6 +1,8 @@
 # wix-clone
  Cloning udemy business landing page to practice design to website with responsive capabilities (landing page only, any button on the page is not functional)
  
+ You can try it by going to this link ! https://main--cute-muffin-b9e36b.netlify.app/
+ 
  The reason why i choose udemy business website is because i'm drawn in by it's minimalistic yet cohorent website with responsive capabilities
  
  Language used :
